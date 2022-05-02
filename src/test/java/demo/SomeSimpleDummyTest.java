@@ -12,5 +12,10 @@ public class SomeSimpleDummyTest {
 	public void testGetDateForHSQLDB() {
 		assertEquals("1976-05-19", DAOUtils.getDateForHSQLDB("19.05.1976"));
 	}
+	
+	@Test
+	public void testDummyTest(){
+	       assertEqueals("x", "y"); // to explore pull request	
+	}
 
 }
